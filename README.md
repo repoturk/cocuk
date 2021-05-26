@@ -18,27 +18,27 @@ ffmpeg profilini değiştirmek istiyorsanız bunları şurada düzenleyin: [ffmp
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Docker İle Kurulum:
-```
-# 1. Python ve Docker'ı kurun.
 
+- 1. Python ve Docker'ı kurun.
+```
 sudo snap install docker
 sudo apt install python3
-
-# 2. Repo'yu Klonlayın.
-
+```
+- 2. Repo'yu Klonlayın.
+```
 git clone https://github.com/Turkce-Botlar-Sohbet/VideoSesDonustur
 cd VideoSesDonustur
-
-# 3. Yapılandırma Dosyasını Ayarlayın.
-
+```
+- 3. Yapılandırma Dosyasını Ayarlayın.
+```
 nano config.env
-
-# 4. Docker Görüntüsü Oluşturun.
-
+```
+- 4. Docker Görüntüsü Oluşturun.
+```
 sudo docker build . -t videosesdonustur
-
-# 5. Botu Çalıştırın.
-
+```
+- 5. Botu Çalıştırın.
+```
 sudo docker run videosesdonustur
 ```
 
