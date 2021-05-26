@@ -13,7 +13,7 @@ def on_task_complete():
 def add_task(message: Message):
     try:
       c_time = time.time()
-      msg = message.reply_text("```Video yükleniyor...```", quote=True)
+      msg = message.reply_text("```Video Yükleniyor...```", quote=True)
       filepath = message.download(
                 file_name=download_dir,
                 progress=progress_for_pyrogram,
@@ -22,10 +22,10 @@ def add_task(message: Message):
                     msg,
                     c_time
                 ))
-      msg.edit("```Video kodlanıyor...```")
+      msg.edit("```Video Kodlanıyor...```")
       new_file = encode(filepath)
       if new_file:
-        msg.edit("```Video kodlandı, Metadata verileri alınıyor...```")
+        msg.edit("```Video Kodlandı, Metadata Veriler Alınıyor...```")
         duration = get_duration(new_file)
         thumb = get_thumbnail(new_file, download_dir, duration / 4)
         width, height = get_width_height(new_file)
@@ -46,7 +46,7 @@ def add_task(message: Message):
                 ))
         os.remove(new_file)
         os.remove(thumb)
-        msg.edit("```Video başarıyla kodlandı```")
+        msg.edit("```Video Başarıyla Kodlandı.```")
       else:
         msg.edit("```Dosyanızı kodlarken bir şeyler ters gitti.```")
         os.remove(filepath)
