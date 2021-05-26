@@ -2,7 +2,7 @@ import os
 import time
 from bot import data, download_dir
 from pyrogram.types import Message
-from .ffmpeg_utils import encode, get_thumbnail, get_duration, get_width_height
+from .ffmpeg import encode, get_thumbnail, get_duration, get_width_height
 from bot.progress import progress_for_pyrogram
 
 def on_task_complete():
