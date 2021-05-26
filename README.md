@@ -41,15 +41,3 @@ sudo docker build . -t videosesdonustur
 ```
 sudo docker run videosesdonustur
 ```
-
-### Kurulum Gereksinimleri
-Makinenize gerekli Python Modüllerini kurun.
-```sh
-apt-get -qq install ffmpeg
-pip3 install -r requirements.txt
-```
-### Dağıtma
-Python3.7 veya üstü ile.
-```sh
-python3 -m bot
-```
