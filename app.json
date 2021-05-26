@@ -24,7 +24,7 @@
       "value": "1111111111:AAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBB"
     },
     "SUDO_USERS": {
-      "description": "https://t.me/BotFather adresinden bir bot oluşturarak edinin.",
+      "description": "Yetkili kullanıcının ID numarasını ekleyin. Birden fazla kullanıcı için ayırıcı olarak boşuk kullanın.",
       "value": "572151421"
     },
     "DOWNLOAD_DIR": {
