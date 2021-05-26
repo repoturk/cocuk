@@ -1,5 +1,5 @@
 # Nedir Bu Bot?
-Telegram'ın ses formatına destek vermediği hiç sesi çıkmayan videoları uygun formata kodlar ve bunu herhangi bir kalite kaybı olmadan yapar.
+Telegram'ın ses formatına destek vermediği hiç sesi çıkmayan videoları FFmpeg aracılığıyla uygun formata kodlar ve bunu herhangi bir kalite kaybı olmadan yapar.
 
 Çalışan Bir Örnek: [Video Sesini Dönüştür](https://t.me/SesVideoBot)
 
@@ -12,7 +12,7 @@ Ortam değişkenlerini ayarlayın ve bunları [config.env](./config.env) içine 
 - `DOWNLOAD_DIR` - (İsteğe bağlı) İndirilen dosyaları saklamak için geçici indirme dizini. Varsayılan "downloads/"
 
 ### Kodlama Biçimini Yapılandırma:
-ffmpeg profilini değiştirmek isterseniz şuradan ayarlayın: [ffmpeg_utils.py](/bot/helper/ffmpeg_utils.py)
+FFmpeg profilini değiştirmek isterseniz şuradan ayarlayın: [ffmpeg_utils.py](/bot/helper/ffmpeg_utils.py)
 
 ## Heroku ile Kolay Kurulum:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
