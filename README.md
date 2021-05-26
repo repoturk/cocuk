@@ -1,8 +1,4 @@
 <h1 align="center">Video Sesini Dönüştür</h1>
-<p align="center">
-  <a href="https://github.com/Turkce-Botlar-Sohbet/VideoSesDonustur">
-    <img src="https://socialify.git.ci/Turkce-Botlar-Sohbet/VideoSesDonustur/image?descriptionEditable=%0A&font=Source%20Code%20Pro&forks=1&issues=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Light" alt="Cover Image" width="650">
-  </a>
   <p align="center">
     Video Kodlayıcı Telegram Botu
     <br />
