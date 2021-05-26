@@ -29,7 +29,7 @@
     },
     "DOWNLOAD_DIR": {
       "description": "(İsteğe bağlı) İndirilen dosyaları saklamak için geçici indirme dizini. Varsayılan -> indirilenler/",
-      "value": "",
+      "value": "downloads/",
       "required": false
     }
   },
