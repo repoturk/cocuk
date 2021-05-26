@@ -1,4 +1,4 @@
-# Nedir Bu Bot?
+# Bot Hakkında
 Telegram'ın ses formatına destek vermediği hiç sesi çıkmayan videoları FFmpeg aracılığıyla uygun formata kodlar ve bunu herhangi bir kalite kaybı olmadan yapar.
 
 Çalışan Bir Örnek: [Video Sesini Dönüştür](https://t.me/SesVideoBot)
