@@ -1,6 +1,6 @@
 {
   "name": "Video Sesini Dönüştür",
-  "description": "Telegram'ın destek vermediği ses formatlarını dönüştürüp video sesinin tekrar gelmesini sağlar.",
+  "description": "Telegram'ın ses formatına destek vermediği hiç sesi çıkmayan videoları uygun formata kodlar ve bunu herhangi bir kalite kaybı olmadan yapar.",
   "keywords": [
     "telegram",
     "video",
