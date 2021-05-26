@@ -1,6 +1,6 @@
 {
   "name": "Video Sesini Dönüştür",
-  "description": "Telegram'ın destek vermediği sessiz videoları dönüştürüp sesin tekrar gelmesini sağlar.",
+  "description": "Telegram'ın destek vermediği ses formatlarını dönüştürüp video sesinin tekrar gelmesini sağlar.",
   "keywords": [
     "telegram",
     "video",
