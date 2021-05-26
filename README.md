@@ -17,6 +17,15 @@ ffmpeg profilini değiştirmek istiyorsanız bunları şurada düzenleyin: [ffmp
 ## Kolay Kurulum:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+## Docker İle Kurulum:
+```
+sudo snap install docker
+sudo apt install python3
+git clone https://github.com/Turkce-Botlar-Sohbet/VideoSesDonustur
+cd VideoSesDonustur
+sudo docker build . -t videosesdonustur
+sudo docker run videosesdonustur
+```
 
 ### Kurulum Gereksinimleri
 Makinenize gerekli Python Modüllerini kurun.
