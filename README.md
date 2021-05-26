@@ -14,10 +14,10 @@ Ortam değişkenlerini ayarlayın ve bunları [config.env](./config.env) içine 
 ### Kodlama Biçimini Yapılandırma:
 ffmpeg profilini değiştirmek isterseniz şuradan ayarlayın: [ffmpeg_utils.py](/bot/helper/ffmpeg_utils.py)
 
-## Kolay Kurulum:
+## Heroku Kolay Kurulum:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-## Docker İle Kurulum:
+## Linux'ta Docker ile Kurulum:
 
 - 1. Python ve Docker'ı kurun.
 ```
