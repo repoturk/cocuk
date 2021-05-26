@@ -4,7 +4,7 @@ Ac3 veya eac3 ses formatıyla kodlanmış yani telegramın destek vermediği hi�
 Çalışan bir örnek: [Video Sesini Dönüştür](https://t.me/SesVideoBot)
 
 ### Ortam Değişkenleri
-Ortam değişkenlerine değerler ekleyin veya bunları [config.env](./config.env) içine ekleyin.
+Ortam değişkenlerine değerler ekleyin ve bunları [config.env](./config.env) içine ekleyin.
 - `API_ID` - [https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluşturarak edinin.
 - `API_HASH` - [https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluşturarak edinin.
 - `BOT_TOKEN` - [https://t.me/BotFather](https://t.me/BotFather) adresinden bir bot oluşturarak edinin.
