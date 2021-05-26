@@ -8,7 +8,7 @@ Ortam değişkenlerini ayarlayın ve bunları [config.env](./config.env) içine 
 - `API_ID` - [https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluşturarak edinin.
 - `API_HASH` - [https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluşturarak edinin.
 - `BOT_TOKEN` - [https://t.me/BotFather](https://t.me/BotFather) adresinden bir bot oluşturarak edinin.
-- `SUDO_USERS` - Yetkili kullanıcının ID numarasını ekleyin. Birden fazla kullanıcı için ayırıcı olarak boşuk kullanın.
+- `SUDO_USERS` - Yetkili kullanıcının ID numarasını ekleyin. Birden fazla kullanıcı için ayırıcı olarak boşluk kullanın.
 - `DOWNLOAD_DIR` - (İsteğe bağlı) İndirilen dosyaları saklamak için geçici indirme dizini. Varsayılan "downloads/"
 
 ### Kodlama Biçimini Yapılandırma:
