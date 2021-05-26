@@ -33,11 +33,11 @@
       "required": false
     }
   },
-  "buildpacks": [{
-    "url": "https://github.com/Turkce-Botlar-Sohbet/VideoSesDonustur"
-  }, {
-    "url": "heroku/python"
-  }],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
   "formation": {
     "worker": {
       "quantity": 1,
