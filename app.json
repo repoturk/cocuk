@@ -12,19 +12,19 @@
   "repository": "https://github.com/Turkce-Botlar-Sohbet/VideoSesDonustur",
   "env": {
     "API_ID": {
-      "description": "[https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluşturarak edinin.",
+      "description": "https://my.telegram.org'da bir uygulama oluşturarak edinin.",
       "value": "1111111"
     },
     "API_HASH": {
-      "description": "[https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluşturarak edinin.",
+      "description": "https://my.telegram.org'da bir uygulama oluşturarak edinin.",
       "value": ""
     },
     "BOT_TOKEN": {
-      "description": "[https://t.me/BotFather](https://t.me/BotFather) adresinden bir bot oluşturarak edinin.",
+      "description": "https://t.me/BotFather adresinden bir bot oluşturarak edinin.",
       "value": "1111111111:AAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBB"
     },
     "SUDO_USERS": {
-      "description": "[https://t.me/BotFather](https://t.me/BotFather) adresinden bir bot oluşturarak edinin.",
+      "description": "https://t.me/BotFather adresinden bir bot oluşturarak edinin.",
       "value": "572151421"
     },
     "DOWNLOAD_DIR": {
