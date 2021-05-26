@@ -31,7 +31,7 @@ Ortam değişkenlerini ayarlayın ve bunları [config.env](./config.env) içine 
 - `DOWNLOAD_DIR` - (İsteğe bağlı) İndirilen dosyaları saklamak için geçici indirme dizini. Varsayılan "downloads/"
 
 ### Kodlama Biçimini Yapılandırma:
-FFmpeg profilini değiştirmek isterseniz şuradan ayarlayın: [ffmpeg_utils.py](/bot/helper/ffmpeg.py)
+FFmpeg profilini değiştirmek isterseniz şuradan ayarlayın: [ffmpeg.py](/bot/helper/ffmpeg.py)
 
 ## Heroku ile Kolay Kurulum:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
