@@ -8,7 +8,7 @@ WORKDIR /app
 RUN apt -qq update
 
 ENV DEBIAN_FRONTEND=noninteractive
-ENV TZ=Asia/Kolkata
+ENV TZ=Europe/Moscow
 
 
 RUN apt -qq install -y git wget curl busybox  python3 ffmpeg python3-pip
