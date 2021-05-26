@@ -6,11 +6,11 @@
   <p align="center">
     Video Kodlayıcı Telegram Botu
     <br />
-    <a href="https://telegram.dog/AH_File2Link_Bot"><strong>Örnek Bot »</strong></a>
+    <a href="https://telegram.dog/SesVideoBot"><strong>Örnek Bot »</strong></a>
     <br />
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot/issues">Hata Bildir</a>
+    <a href="https://github.com/Turkce-Botlar-Sohbet/VideoSesDonustur/issues">Hata Bildir</a>
     |
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot/issues">Özellik İste</a>
+    <a href="https://github.com/Turkce-Botlar-Sohbet/VideoSesDonustur/issues">Özellik İste</a>
   </p>
 </p>
 
