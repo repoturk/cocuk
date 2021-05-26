@@ -9,7 +9,7 @@ Ortam değişkenlerini ayarlayın ve bunları [config.env](./config.env) içine 
 - `API_HASH` - [https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluşturarak edinin.
 - `BOT_TOKEN` - [https://t.me/BotFather](https://t.me/BotFather) adresinden bir bot oluşturarak edinin.
 - `SUDO_USERS` - Yetkili kullanıcının ID numarasını ekleyin. Birden fazla kullanıcı için ayırıcı olarak boşuk kullanın.
-- `DOWNLOAD_DIR` - (İsteğe bağlı) İndirilen dosyaları saklamak için geçici indirme dizini. Varsayılan 'indirilenler/'
+- `DOWNLOAD_DIR` - (İsteğe bağlı) İndirilen dosyaları saklamak için geçici indirme dizini. Varsayılan "downloads/"
 
 ### Kodlama Biçimini Yapılandırma:
 ffmpeg profilini değiştirmek istiyorsanız bunları şurada düzenleyin: [ffmpeg_utils.py](/bot/helper/ffmpeg_utils.py)
