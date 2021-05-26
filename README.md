@@ -12,7 +12,7 @@
 
 <hr>
 
-<p align="center">## Bot Hakkında</a>
+<h2 align="center">## Bot Hakkında</a>
 <p align="center">
     <a href="https://github.com/Turkce-Botlar-Sohbet/VideoSesDonustur">
         <img src="https://www.flaticon.com/premium-icon/icons/svg/2626/2626281.svg" height="100" width="100" alt="Telegram Logo">
