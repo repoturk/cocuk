@@ -28,7 +28,7 @@
       "value": "572151421"
     },
     "DOWNLOAD_DIR": {
-      "description": "(İsteğe bağlı) İndirilen dosyaları saklamak için geçici indirme dizini. Varsayılan -> indirilenler/",
+      "description": "(İsteğe bağlı) İndirilen dosyaları saklamak için geçici indirme dizini. Varsayılan -> downloads/",
       "value": "downloads/",
       "required": false
     }
