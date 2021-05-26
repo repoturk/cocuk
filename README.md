@@ -1,31 +1,31 @@
 # Nedir bu bot?
-Ac3 veya eac3 ses formatıyla kodlanmış yani telegramın destek vermediği hiç sesi olmayan Telegram videolarının sesini ffmpeg aracılığıyla acc formatına dönüştürüp sesin gelmesini sağlar ve bunu herhangi bir kalite olmadan yapar.
+Ac3 veya eac3 ses formatÄ±yla kodlanmÄ±ÅŸ yani telegramÄ±n destek vermediÄŸi hiÃ§ sesi olmayan Telegram videolarÄ±nÄ±n sesini ffmpeg aracÄ±lÄ±ÄŸÄ±yla acc formatÄ±na dÃ¶nÃ¼ÅŸtÃ¼rÃ¼p sesin gelmesini saÄŸlar ve bunu herhangi bir kalite kaybÄ± olmadan yapar.
 
-Çalışan bir örnek: [Video Sesini Dönüştür](https://t.me/SesVideoBot)
+Ã‡alÄ±ÅŸan bir Ã¶rnek: [Video Sesini DÃ¶nÃ¼ÅŸtÃ¼r](https://t.me/SesVideoBot)
 
-### Ortam Değişkenleri
-Ortam değişkenlerine değerler ekleyin veya bunları [config.env](./config.env) içine ekleyin.
-- `API_ID` - [https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluşturarak edinin.
-- `API_HASH` - [https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluşturarak edinin.
-- `BOT_TOKEN` - [https://t.me/BotFather](https://t.me/BotFather) adresinden bir bot oluşturarak edinin.
-- `SUDO_USERS` - Yetkili kullanıcının ID numarasını ekleyin. Birden fazla kullanıcı için ayırıcı olarak boşuk kullanın.
-- `DOWNLOAD_DIR` - (İsteğe bağlı) İndirilen dosyaları saklamak için geçici indirme dizini. Varsayılan 'indirilenler/'
+### Ortam DeÄŸiÅŸkenleri
+Ortam deÄŸiÅŸkenlerine deÄŸerler ekleyin veya bunlarÄ± [config.env](./config.env) iÃ§ine ekleyin.
+- `API_ID` - [https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluÅŸturarak edinin.
+- `API_HASH` - [https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluÅŸturarak edinin.
+- `BOT_TOKEN` - [https://t.me/BotFather](https://t.me/BotFather) adresinden bir bot oluÅŸturarak edinin.
+- `SUDO_USERS` - Yetkili kullanÄ±cÄ±nÄ±n ID numarasÄ±nÄ± ekleyin. Birden fazla kullanÄ±cÄ± iÃ§in ayÄ±rÄ±cÄ± olarak boÅŸuk kullanÄ±n.
+- `DOWNLOAD_DIR` - (Ä°steÄŸe baÄŸlÄ±) Ä°ndirilen dosyalarÄ± saklamak iÃ§in geÃ§ici indirme dizini. VarsayÄ±lan 'indirilenler/'
 
-### Kodlama Biçimini Yapılandırma
-ffmpeg profilini değiştirmek istiyorsanız bunları şurada düzenleyin: [ffmpeg_utils.py](/bot/helper/ffmpeg_utils.py)
+### Kodlama BiÃ§imini YapÄ±landÄ±rma
+ffmpeg profilini deÄŸiÅŸtirmek istiyorsanÄ±z bunlarÄ± ÅŸurada dÃ¼zenleyin: [ffmpeg_utils.py](/bot/helper/ffmpeg_utils.py)
 
 ## Kolay Kurulum:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
 ### Kurulum Gereksinimleri
-Makinenize gerekli Python Modüllerini kurun.
+Makinenize gerekli Python ModÃ¼llerini kurun.
 ```sh
 apt-get -qq install ffmpeg
 pip3 install -r requirements.txt
 ```
-### Dağıtma
-Python3.7 veya üstü ile.
+### DaÄŸÄ±tma
+Python3.7 veya Ã¼stÃ¼ ile.
 ```sh
 python3 -m bot
 ```
