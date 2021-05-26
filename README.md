@@ -26,8 +26,6 @@
     Telegram'ın ses formatına destek vermediği hiç sesi çıkmayan videoları FFmpeg aracılığıyla uygun formata kodlar ve bunu herhangi bir kalite kaybı olmadan yapar.
 </p>
 
-Çalışan Bir Örnek: [Video Sesini Dönüştür](https://t.me/SesVideoBot)
-
 ### Ortam Değişkenleri:
 Ortam değişkenlerini ayarlayın ve bunları [config.env](./config.env) içine ekleyin.
 - `API_ID` - [https://my.telegram.org](https://my.telegram.org)'da bir uygulama oluşturarak edinin.
