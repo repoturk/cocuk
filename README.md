@@ -1,7 +1,7 @@
-# Nedir bu bot?
-Ac3 veya eac3 ses formatıyla kodlanmış yani telegramın destek vermediği hiç sesi olmayan Telegram videolarının sesini ffmpeg aracılığıyla acc formatına dönüştürüp sesin gelmesini sağlar ve bunu herhangi bir kalite kaybı olmadan yapar.
+# Nedir Bu Bot?
+Telegram'ın ses formatına destek vermediği hiç sesi çıkmayan videoları uygun formata kodlar ve bunu herhangi bir kalite kaybı olmadan yapar.
 
-Çalışan bir örnek: [Video Sesini Dönüştür](https://t.me/SesVideoBot)
+Çalışan Bir Örnek: [Video Sesini Dönüştür](https://t.me/SesVideoBot)
 
 ### Ortam Değişkenleri:
 Ortam değişkenlerini ayarlayın ve bunları [config.env](./config.env) içine ekleyin.
