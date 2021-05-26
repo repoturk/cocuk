@@ -1,5 +1,12 @@
-# Bot Hakkında
-Telegram'ın ses formatına destek vermediği hiç sesi çıkmayan videoları FFmpeg aracılığıyla uygun formata kodlar ve bunu herhangi bir kalite kaybı olmadan yapar.
+## Bot Hakkında
+<p align="center">
+    <a href="https://github.com/Turkce-Botlar-Sohbet/VideoSesDonustur">
+        <img src="https://www.flaticon.com/premium-icon/icons/svg/2626/2626281.svg" height="100" width="100" alt="Telegram Logo">
+    </a>
+</p>
+<p align='center'>
+    Telegram'ın ses formatına destek vermediği hiç sesi çıkmayan videoları FFmpeg aracılığıyla uygun formata kodlar ve bunu herhangi bir kalite kaybı olmadan yapar.
+</p>
 
 Çalışan Bir Örnek: [Video Sesini Dönüştür](https://t.me/SesVideoBot)
 
