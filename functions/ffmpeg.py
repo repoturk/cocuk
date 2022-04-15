@@ -42,16 +42,18 @@ async def encode(filepath):
     audio_codec = get_codec(filepath, channel='a:0')
     subs_i = get_codec(filepath, channel='s:0')
 
-    if subs_i == []:
+    if not subs_i:
         subtitles = ''
     else:
         subtitles = '-c:s copy -map 0'
         output_filepath = encode_dir + '.mkv'
 
     if not audio_codec:
-        audio_opts = ''
+        audio_opts = '-c:v copy'
+    elif audio_codec[0] == 'aac':
+        audio_opts = '-c:v copy'
     else:
-        audio_opts = '-c:a aac'
+        audio_opts = '-c:a aac -c:v copy'
 
     command = ['ffmpeg', '-y', '-i', filepath]
     command.extend((subtitles.split() + audio_opts.split()))
