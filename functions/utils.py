@@ -49,6 +49,9 @@ async def add_task(message: Message):
         pass
     except MessageIdInvalid:
         await msg.edit_text('İndirme İptal!')
+    except FloodWait as e:
+        print(f"Sleep of {e.x} required by FloodWait ...")
+        time.sleep(e.x)
     except Exception as e:
         await msg.edit_text(f"<code>{e}</code>")
     await on_task_complete()
