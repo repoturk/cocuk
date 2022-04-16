@@ -46,9 +46,8 @@ async def encode_video(app, message):
         if not message.document.mime_type in video_mimetype:
             message.reply_text("```Geçersiz Video !\nBu video dosyasına benzemiyor.```", quote=True)
             return
-    task_message = await message.reply_text(f"`✔️ Sıraya Eklendi...\nSıra: {len(quee)}\n\nSabırlı olun...\n\n#kuyruk`", quote=True)
+    await message.reply_text(f"`✔️ Sıraya Eklendi...\nSıra: {len(quee)}\n\nSabırlı olun...\n\n#kuyruk`", quote=True)
     quee.append(message)
     if len(quee) == 1:
         await add_task(message)
-        await task_message.delete()
 
