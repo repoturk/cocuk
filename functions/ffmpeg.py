@@ -40,13 +40,6 @@ async def encode(filepath):
 
     # Get the audio and subs channel codec
     audio_codec = get_codec(filepath, channel='a:0')
-    subs_i = get_codec(filepath, channel='s:0')
-
-    if not subs_i:
-        subtitles = ''
-    else:
-        subtitles = '-c:s copy -map 0'
-        output_filepath = encode_dir + '.mkv'
 
     if not audio_codec:
         audio_opts = '-c:v copy'
@@ -56,7 +49,7 @@ async def encode(filepath):
         audio_opts = '-c:a aac -c:v copy'
 
     command = ['ffmpeg', '-y', '-i', filepath]
-    command.extend((subtitles.split() + audio_opts.split()))
+    command.extend(audio_opts.split())
     proc = await asyncio.create_subprocess_exec(
         *command, output_filepath,
         stdout=asyncio.subprocess.PIPE,
