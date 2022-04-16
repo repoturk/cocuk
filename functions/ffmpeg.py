@@ -43,7 +43,7 @@ async def encode(filepath):
 
     if not audio_codec:
         audio_opts = '-c:v copy'
-    elif audio_codec[0] == 'aac':
+    elif audio_codec[0] in 'aac':
         audio_opts = '-c:v copy'
     else:
         audio_opts = '-c:a aac -c:v copy'
