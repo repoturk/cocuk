@@ -114,6 +114,7 @@ async def handle_upload(new_file, message, msg, random):
         pass
     try:
         shutil.rmtree(path)
-        os.remove(thumb)
+        if thumb_image_path is None:
+            os.remove(thumb)
     except:
         pass
