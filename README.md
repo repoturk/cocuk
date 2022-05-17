@@ -34,7 +34,7 @@ Ortam değişkenlerini ayarlayın ve bunları [config.env](./config.env) içine 
 FFmpeg profilini değiştirmek isterseniz şuradan ayarlayın: [ffmpeg.py](/functions/ffmpeg.py)
 
 ## Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Turkce-Botlar-Sohbet/VideoSesDonustur/blob/main/VideoSesDonustur.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Turkce-Botlar-Sohbet/VideoSesDonustur/blob/master/VideoSesDonustur.ipynb)
 
 ## Heroku ile Kolay Kurulum:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
