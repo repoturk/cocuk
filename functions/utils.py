@@ -50,8 +50,8 @@ async def add_task(message: Message):
     except MessageIdInvalid:
         await msg.edit_text('İndirme İptal!')
     except FloodWait as e:
-        print(f"Sleep of {e.x} required by FloodWait ...")
-        time.sleep(e.x)
+        print(f"Sleep of {e.value} required by FloodWait ...")
+        time.sleep(e.value)
     except Exception as e:
         await msg.edit_text(f"<code>{e}</code>")
     await on_task_complete()
@@ -96,7 +96,6 @@ async def handle_upload(new_file, message, msg, random):
         video = await message.reply_video(
             new_file,
             supports_streaming=True,
-            parse_mode="html",
             caption=caption,
             thumb=thumb,
             duration=duration,
@@ -108,8 +107,8 @@ async def handle_upload(new_file, message, msg, random):
         if not audio_codec:
             await video.reply_text("`⚪ Bu videonun sesi yoktu ama yine de kodladım.\n\n#bilgilendirme`", quote=True)
     except FloodWait as e:
-        print(f"Sleep of {e.x} required by FloodWait ...")
-        time.sleep(e.x)
+        print(f"Sleep of {e.value} required by FloodWait ...")
+        time.sleep(e.value)
     except MessageNotModified:
         pass
     try:
