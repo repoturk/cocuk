@@ -36,7 +36,7 @@ async def help_message(app, message):
                 ]
             ]
         ),
-        reply_to_message_id=message.message_id
+        reply_to_message_id=message.id
     )
 
 
@@ -50,4 +50,3 @@ async def encode_video(app, message):
     quee.append(message)
     if len(quee) == 1:
         await add_task(message)
-
