@@ -31,7 +31,10 @@ Ortam değişkenlerini ayarlayın ve bunları [config.env](./config.env) içine 
 - `DOWNLOAD_DIR` - (İsteğe bağlı) İndirilen dosyaları saklamak için geçici indirme dizini. Varsayılan: "downloads/"
 
 ### Kodlama Biçimini Yapılandırma:
-FFmpeg profilini değiştirmek isterseniz şuradan ayarlayın: [ffmpeg.py](/bot/helper/ffmpeg.py)
+FFmpeg profilini değiştirmek isterseniz şuradan ayarlayın: [ffmpeg.py](/functions/ffmpeg.py)
+
+## Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Turkce-Botlar-Sohbet/VideoSesDonustur/blob/main/VideoSesDonustur.ipynb)
 
 ## Heroku ile Kolay Kurulum:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -67,5 +70,3 @@ sudo docker run videosesdonustur
 ### Telif Hakkı ve Lisans
 - Copyright &copy; 2021 &mdash; [Türkçe Botlar Sohbet](https://t.me/botsohbet)
 - [MIT License](./LICENSE)
-
-<a href="https://www.digitalocean.com/?refcode=8a7a2b148ace&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>
