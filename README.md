@@ -34,7 +34,7 @@ Ortam değişkenlerini ayarlayın ve bunları [config.env](./config.env) içine 
 FFmpeg profilini değiştirmek isterseniz şuradan ayarlayın: [ffmpeg.py](/functions/ffmpeg.py)
 
 ## Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Turkce-Botlar-Sohbet/VideoSesDonustur/blob/master/VideoSesDonustur.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/repoturk/cocuk/blob/master/VideoSesDonustur.ipynb)
 
 ## Linux'ta Docker ile Kurulum:
 
